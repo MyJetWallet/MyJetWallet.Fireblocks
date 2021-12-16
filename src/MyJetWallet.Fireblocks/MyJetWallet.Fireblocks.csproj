@@ -15,11 +15,6 @@
     <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MyJetWallet.Fireblocks.Domain.Models\MyJetWallet.Fireblocks.Domain.Models.csproj" />
-    <ProjectReference Include="..\MyJetWallet.Fireblocks.Domain\MyJetWallet.Fireblocks.Domain.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetsForTfmSpecificBuildOutput>
       $(TargetsForTfmSpecificBuildOutput);PackReferencedProjectOutputs
