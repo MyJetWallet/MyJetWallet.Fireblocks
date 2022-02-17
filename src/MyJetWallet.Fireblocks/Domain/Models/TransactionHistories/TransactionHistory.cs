@@ -23,10 +23,10 @@ namespace MyJetWallet.Fireblocks.Domain.Models.TransactionHistories
         public long UpdatedDateUnix { get; set; }
 
         [DataMember(Order = 5)]
-        public string AssetId { get; set; }
+        public string FireblocksAssetId { get; set; }
 
         [DataMember(Order = 6)]
-        public string FeeAssetId { get; set; }
+        public string FireblocksFeeAssetId { get; set; }
 
         [DataMember(Order = 7)]
         public decimal Amount { get; set; }
@@ -48,5 +48,17 @@ namespace MyJetWallet.Fireblocks.Domain.Models.TransactionHistories
 
         [DataMember(Order = 13)]
         public TransferPeerPath Destination { get; set; }
+
+        [DataMember(Order = 14)]
+        public string AssetSymbol { get; set; }
+
+        [DataMember(Order = 15)]
+        public string AssetNetwork { get; set; }
+
+        [DataMember(Order = 16)]
+        public string FeeAssetSymbol { get; set; }
+
+        [DataMember(Order = 17)]
+        public string FeeAssetNetwork { get; set; }
     }
 }
