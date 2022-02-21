@@ -9,6 +9,8 @@
         BEP20 = 4,
         COMPOUND = 5,
         XLM_ASSET = 6,
+        ALGO_ASSET = 7,
+        SOL_ASSET = 8,
         UNKNOWN = 999
     }
 }
