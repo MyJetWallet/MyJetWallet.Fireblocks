@@ -11,6 +11,9 @@
         XLM_ASSET = 6,
         ALGO_ASSET = 7,
         SOL_ASSET = 8,
+        TRON_TRC20 = 9,
+        XDB_ASSET = 10,
+
         UNKNOWN = 999
     }
 }
