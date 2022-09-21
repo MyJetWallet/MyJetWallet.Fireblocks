@@ -24,5 +24,8 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
 
         [DataMember(Order = 6)]
         public string WithdrawalVaultAccountId { get; set; }
+
+        [DataMember(Order = 7)]
+        public decimal MinAmountForAutoSettlement { get; set; }
     }
 }
