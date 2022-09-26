@@ -27,5 +27,17 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
 
         [DataMember(Order = 7)]
         public decimal MinAmountForAutoSettlement { get; set; }
+
+        [DataMember(Order = 8)]
+        public decimal MinGasAmount { get; set; }
+
+        [DataMember(Order = 9)]
+        public decimal MaxGasAmount { get; set; }
+
+        [DataMember(Order = 10)]
+        public bool IsGasRequired { get; set; }
+
+        [DataMember(Order = 11)]
+        public bool IsEstimationRequired { get; set; }
     }
 }
