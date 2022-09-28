@@ -47,6 +47,6 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
         public bool IsDepositGenerationEnabled { get; set; }
 
         [DataMember(Order = 14)]
-        public bool SettlementVaultAccountId { get; set; }
+        public string SettlementVaultAccountId { get; set; }
     }
 }
