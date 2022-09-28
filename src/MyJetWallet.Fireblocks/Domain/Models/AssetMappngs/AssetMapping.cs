@@ -39,5 +39,14 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
 
         [DataMember(Order = 11)]
         public bool IsEstimationRequired { get; set; }
+
+        [DataMember(Order = 12)]
+        public bool IsSettlementRequired { get; set; }
+
+        [DataMember(Order = 13)]
+        public bool IsDepositGenerationEnabled { get; set; }
+
+        [DataMember(Order = 14)]
+        public bool SettlementVaultAccountId { get; set; }
     }
 }
