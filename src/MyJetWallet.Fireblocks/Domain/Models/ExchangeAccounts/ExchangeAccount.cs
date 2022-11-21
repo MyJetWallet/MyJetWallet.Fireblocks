@@ -30,8 +30,5 @@ namespace MyJetWallet.Fireblocks.Domain.Models.ExchangeAccounts
 
         [DataMember(Order = 8)]
         public string MainAccountId { get; set; }
-
-        [DataMember(Order = 9)]
-        public string FundableAccountType { get; set; }
     }
 }
