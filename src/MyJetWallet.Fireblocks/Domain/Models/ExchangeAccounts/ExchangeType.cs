@@ -1,4 +1,4 @@
-﻿namespace MyJetWallet.Fireblocks.Domain.Models.Addresses
+﻿namespace MyJetWallet.Fireblocks.Domain.Models.ExchangeAccounts
 {
     public enum ExchangeType
     {
