@@ -48,5 +48,8 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
 
         [DataMember(Order = 14)]
         public string SettlementVaultAccountId { get; set; }
+
+        [DataMember(Order = 15)]
+        public FeeEstimationSource FeeEstimationSource { get; set; }
     }
 }
