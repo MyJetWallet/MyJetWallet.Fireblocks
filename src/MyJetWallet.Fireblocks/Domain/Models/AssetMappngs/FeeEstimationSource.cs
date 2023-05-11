@@ -3,7 +3,9 @@
 public enum FeeEstimationSource
 {
     // ReSharper disable once InconsistentNaming
-    FeePerByte = 0,
+    Unknown = 0,
     // ReSharper disable once InconsistentNaming
-    GasPrice = 1,
+    FeePerByte = 1,
+    // ReSharper disable once InconsistentNaming
+    GasPrice = 2,
 }
