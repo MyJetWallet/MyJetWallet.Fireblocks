@@ -1,5 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
+
 
 namespace Service.MyJetWallet.Fireblocks.Tests
 {
@@ -14,7 +16,7 @@ namespace Service.MyJetWallet.Fireblocks.Tests
         public void Test1()
         {
             Console.WriteLine("Debug output");
-            Assert.Pass();
+            ClassicAssert.Pass();
         }
     }
 }
