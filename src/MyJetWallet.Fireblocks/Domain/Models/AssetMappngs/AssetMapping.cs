@@ -56,6 +56,6 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
         public string CrystalCurrency { get; set; }
         
         [DataMember(Order = 17)]
-        public string CrystalTokenId { get; set; }
+        public int CrystalTokenId { get; set; }
     }
 }
