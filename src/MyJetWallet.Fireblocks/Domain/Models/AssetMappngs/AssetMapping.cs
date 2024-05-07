@@ -51,5 +51,11 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
 
         [DataMember(Order = 15)]
         public FeeEstimationSource FeeEstimationSource { get; set; }
+        
+        [DataMember(Order = 16)]
+        public string CrystalCurrency { get; set; }
+        
+        [DataMember(Order = 17)]
+        public string CrystalTokenId { get; set; }
     }
 }
