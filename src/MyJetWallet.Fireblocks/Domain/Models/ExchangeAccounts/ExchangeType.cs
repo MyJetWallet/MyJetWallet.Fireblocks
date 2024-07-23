@@ -22,6 +22,7 @@
         KORBIT = 17,
         SEEDCX = 18,
         BITSO = 19,
+        BYBIT_V2 = 20,
 
         NOT_SUPPORTED = 255,
     }
