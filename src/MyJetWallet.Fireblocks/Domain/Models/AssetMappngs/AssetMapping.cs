@@ -57,5 +57,8 @@ namespace MyJetWallet.Fireblocks.Domain.Models.AssetMappngs
         
         [DataMember(Order = 17)]
         public int CrystalTokenId { get; set; }
+        
+        [DataMember(Order = 18)]
+        public bool AddressValidationEnabled { get; set; }
     }
 }
